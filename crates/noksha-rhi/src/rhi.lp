@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA RHI: UNIFIED RENDER HARDWARE INTERFACE (crates/noksha-rhi/src/rhi.lp)
-// ⚡ 100% Pure Raw LiPi | Silicon-to-Web Graphics Abstraction | Zero-Cost HAL
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-rhi
+// Module: rhi
+// Purpose: Hardware rendering interface and backend abstraction.
 //
 // WHY: Cross-platform rendering often incurs heavy abstraction penalties (e.g. dynamic
 // virtual dispatch, shader transpilation overhead). Noksha's RHI provides a compact,

@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA CANVAS: INSTANCED QUAD BATCHER (crates/noksha-canvas/src/batcher.lp)
-// ⚡ 100% Pure Raw LiPi | Single-Pass Instanced GPU Drawing | Zero Fragmentation
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-canvas
+// Module: batcher
+// Purpose: Single-pass instanced quad batcher.
 //
 // WHY: In naive UI engines, every button, border, card, and background submits a separate
 // draw call to the graphics driver, creating massive CPU driver bottleneck.

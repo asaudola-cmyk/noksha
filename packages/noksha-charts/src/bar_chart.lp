@@ -1,9 +1,10 @@
-// =============================================================================
-// Noksha Charts: Custom High-Performance GPU Bar Chart Widget
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
 // Package: noksha-charts
-// Language: 100% Pure Raw LiPi (Zero aati dependencies)
-// =============================================================================
-
+// Module: bar_chart
+// Purpose: Custom GPU bar chart component implementing the Custom Widget API.
 import "../../crates/noksha-core/src/lib.lp"
 import "../../crates/noksha-canvas/src/lib.lp"
 

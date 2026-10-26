@@ -1,8 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA LAYOUT: ROOT AGGREGATOR MODULE (crates/noksha-layout/src/lib.lp)
-// ⚡ 100% Pure Raw LiPi | W3C Flexbox Level 1 & Headless Layout Engine
-// ==============================================================================
-
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-layout
+// Module: lib
+// Purpose: Layout engine library aggregator.
 include "crates/noksha-layout/src/style.lp"
 include "crates/noksha-layout/src/node.lp"
 include "crates/noksha-layout/src/flexbox.lp"

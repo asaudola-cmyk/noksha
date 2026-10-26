@@ -1,9 +1,9 @@
 [package]
 name = "noksha-charts"
 version = "1.0.0"
-authors = ["Sovereign Noksha Contributors <dev@noksha.org>"]
+authors = ["Noksha Project Authors <dev@noksha.org>"]
 license = "MIT OR Apache-2.0"
-description = "GPU-Accelerated Financial and Analytics Charts Package for Noksha Engine"
+description = "GPU-accelerated analytics and bar charts package for Noksha Engine"
 
 [dependencies]
 noksha-core = { path = "../../crates/noksha-core" }

@@ -1,9 +1,10 @@
-// =============================================================================
-// Noksha Theme: Universal Design System Tokens & Glassmorphic Presets
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
 // Package: noksha-theme
-// Language: 100% Pure Raw LiPi (Zero aati dependencies)
-// =============================================================================
-
+// Module: tokens
+// Purpose: Design system color tokens and theme presets.
 import "../../crates/noksha-core/src/lib.lp"
 
 struct NokshaTheme

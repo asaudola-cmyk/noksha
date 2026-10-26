@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA RHI: BARE-METAL LINUX DRM/KMS DUMB FRAMEBUFFER (crates/noksha-rhi/src/backend/drm_kms/dumb_buffer.lp)
-// ⚡ 100% Pure Raw LiPi | Linux Kernel DRM Subsystem | Zero X11 / Zero Wayland
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-rhi
+// Module: backend/drm_kms/dumb_buffer
+// Purpose: Linux Direct Rendering Manager dumb framebuffer backend.
 //
 // WHY: For industrial kiosks, embedded automotive dashboards, and direct hardware boot,
 // Noksha operates without any window manager or desktop environment.

@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA UI: DECLARATIVE COMPONENT VIEW TREE (crates/noksha-ui/src/view.lp)
-// ⚡ 100% Pure Raw LiPi | Declarative Visual Components | Glassmorphism & Bento
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-ui
+// Module: view
+// Purpose: Declarative UI component tree rendering cards, containers, buttons, and text.
 //
 // WHY: Modern frontend architectures require composing clean, declarative UI components
 // (cards, containers, buttons, labels) that automatically bind their visual representation

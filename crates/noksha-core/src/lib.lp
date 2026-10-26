@@ -1,8 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA CORE: ROOT AGGREGATOR MODULE (crates/noksha-core/src/lib.lp)
-// ⚡ 100% Pure Raw LiPi | Memory Management & Mathematical Foundations
-// ==============================================================================
-
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-core
+// Module: lib
+// Purpose: Core foundation library aggregator.
 include "crates/noksha-core/src/memory/arena.lp"
 include "crates/noksha-core/src/memory/ring.lp"
 include "crates/noksha-core/src/math/vec2.lp"

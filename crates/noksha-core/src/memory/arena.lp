@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA CORE: ZERO-ALLOCATION LINEAR BUMP ARENA (crates/noksha-core/src/memory/arena.lp)
-// ⚡ 100% Pure Raw LiPi | Linux Kernel AMD64 ABI | SYS_mmap (9) & SYS_munmap (11)
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-core
+// Module: memory/arena
+// Purpose: Linear bump allocator for deterministic per-frame memory allocations.
 //
 // WHY: Traditional malloc/free causes severe heap fragmentation, cache invalidation,
 // and unpredictable latency spikes. Noksha requires deterministic, zero-cost per-frame
@@ -34,7 +37,7 @@ fn mem_read_u32(addr, offset)
     return b0 + (b1 * 256) + (b2 * 65536) + (b3 * 16777216)
 end
 
-// Direct Sovereign Heap Deallocation via Linux SYS_munmap (syscall 11)
+// Heap memory deallocation via Linux SYS_munmap (syscall 11)
 fn free(addr, size)
     if addr <= 0 || size <= 0
         return 0

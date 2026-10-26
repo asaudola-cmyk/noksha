@@ -1,8 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA RHI: ROOT AGGREGATOR MODULE (crates/noksha-rhi/src/lib.lp)
-// ⚡ 100% Pure Raw LiPi | Render Hardware Interface & Backend Pipeline
-// ==============================================================================
-
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-rhi
+// Module: lib
+// Purpose: Rendering hardware interface library aggregator.
 include "crates/noksha-rhi/src/rhi.lp"
 include "crates/noksha-rhi/src/command.lp"
 include "crates/noksha-rhi/src/backend/drm_kms/dumb_buffer.lp"

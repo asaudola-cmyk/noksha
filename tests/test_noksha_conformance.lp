@@ -1,45 +1,42 @@
-// ==============================================================================
-// 👑 NOKSHA CONFORMANCE TEST SUITE (tests/test_noksha_conformance.lp)
-// ⚡ 100% Pure Raw LiPi | Complete Verification & Quality Gate
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
 //
-// WHY: In systems software engineering, automated verification is the final arbiter.
-// This conformance suite runs rigorous unit, integration, and mathematical correctness tests
-// across all 7 core subsystems of the Noksha Sovereign Engine.
+// Package: tests
+// Module: test_noksha_conformance
+// Purpose: Automated verification suite covering all core subsystems.
 
 include "crates/noksha.lp"
 
 fn assert_true(cond, msg)
     if cond == 0
-        println("  ❌ [FAIL] Assertion failed: " + msg)
+        println("  FAIL: " + msg)
         return 0
     end
-    println("  ✔ [PASS] " + msg)
+    println("  PASS: " + msg)
     return 1
 end
 
 fn assert_eq_int(actual, expected, msg)
     if actual != expected
-        println("  ❌ [FAIL] " + msg + " (Expected " + to_str(expected) + ", got " + to_str(actual) + ")")
+        println("  FAIL: " + msg + " (expected " + to_str(expected) + ", got " + to_str(actual) + ")")
         return 0
     end
-    println("  ✔ [PASS] " + msg + " (" + to_str(actual) + " == " + to_str(expected) + ")")
+    println("  PASS: " + msg + " (" + to_str(actual) + " == " + to_str(expected) + ")")
     return 1
 end
 
 fn main()
-    println("=================================================================")
-    println("👑 NOKSHA SOVEREIGN ENGINE: FULL CONFORMANCE TEST SUITE")
-    println("⚡ Pure Raw LiPi | Verification & Quality Gate | First 1.0.0")
-    println("=================================================================")
+    println("Noksha Conformance Test Suite (v1.0.0)")
+    println("--------------------------------------")
 
     total_tests = 0
     passed_tests = 0
 
     noksha_engine_init()
 
-    // ── Test Section 1: noksha-core (Arena, Ring, Math, Color) ────────────────
-    println("\n▶ [Section 1] Verifying noksha-core...")
+    // Section 1: noksha-core (Arena, Ring, Math, Color)
+    println("\n[Section 1] noksha-core")
 
     // 1.1 Arena
     arena = noksha_arena_create(65536)
@@ -98,7 +95,7 @@ fn main()
     end
 
     // ── Test Section 2: noksha-rhi (Command Buffers & DRM) ────────────────────
-    println("\n▶ [Section 2] Verifying noksha-rhi...")
+    println("\n[Section 2] noksha-rhi")
 
     cmd_buf = noksha_cmd_buffer_create(8192)
     noksha_cmd_encode_viewport(cmd_buf, 1920, 1080)
@@ -119,7 +116,7 @@ fn main()
     end
 
     // ── Test Section 3: noksha-canvas (Batcher & Clip Stack) ──────────────────
-    println("\n▶ [Section 3] Verifying noksha-canvas...")
+    println("\n[Section 3] noksha-canvas")
 
     batcher = noksha_batcher_create(512)
     clip_stack = noksha_clip_stack_create(16)
@@ -139,7 +136,7 @@ fn main()
     end
 
     // ── Test Section 4: noksha-layout (W3C Flexbox Level 1) ───────────────────
-    println("\n▶ [Section 4] Verifying noksha-layout...")
+    println("\n[Section 4] noksha-layout")
 
     parent_style = noksha_style_create()
     noksha_style_set_size(parent_style, 600, 400)
@@ -176,7 +173,7 @@ fn main()
     end
 
     // ── Test Section 5: noksha-text & Shaper ──────────────────────────────────
-    println("\n▶ [Section 5] Verifying noksha-text...")
+    println("\n[Section 5] noksha-text")
 
     atlas = noksha_atlas_create(1024, 256)
     noksha_atlas_insert(atlas, 77, 10, 16, 0, 14, 12)
@@ -193,7 +190,7 @@ fn main()
     end
 
     // ── Test Section 6: noksha-reactive (Signals) ─────────────────────────────
-    println("\n▶ [Section 6] Verifying noksha-reactive...")
+    println("\n[Section 6] noksha-reactive")
 
     sig = noksha_signal_create(100)
     total_tests = total_tests + 1
@@ -218,10 +215,9 @@ fn main()
     noksha_ring_destroy(ring)
     noksha_arena_destroy(arena)
 
-    println("=================================================================")
-    println("✔ TEST SUMMARY: " + to_str(passed_tests) + " / " + to_str(total_tests) + " TESTS PASSED (100% SUCCESS RATE)")
-    println("👑 NOKSHA SOVEREIGN ENGINE CONFORMANCE PROVEN!")
-    println("=================================================================")
+    println("--------------------------------------")
+    println("Summary: " + to_str(passed_tests) + " / " + to_str(total_tests) + " tests passed (" + to_str((passed_tests * 100) / total_tests) + "% success rate)")
+    println("--------------------------------------")
 
     if passed_tests == total_tests
         return 0

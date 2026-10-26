@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA RHI: HIGH-PERFORMANCE CPU SPAN RASTERIZER (crates/noksha-rhi/src/backend/software/span_raster.lp)
-// ⚡ 100% Pure Raw LiPi | Blend2D-Style Scanline Rasterization | Zero GPU Dependencies
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-rhi
+// Module: backend/software/span_raster
+// Purpose: High-throughput CPU horizontal scanline rasterizer.
 //
 // WHY: In environments with missing, disabled, or broken GPU drivers (headless servers,
 // CI containers, older microcontrollers, fallback modes), Noksha must not fail.

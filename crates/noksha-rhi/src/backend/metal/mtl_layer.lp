@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA RHI: APPLE METAL 3 UMA ZERO-COPY BACKEND (crates/noksha-rhi/src/backend/metal/mtl_layer.lp)
-// ⚡ 100% Pure Raw LiPi | macOS & iOS Metal 3 Pipelines | Zero-Copy UMA Shared Buffers
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-rhi
+// Module: backend/metal/mtl_layer
+// Purpose: Apple Metal 3 Unified Memory Architecture backend interface.
 //
 // WHY: On Apple Silicon (M1/M2/M3/M4 on macOS and A-series on iOS), the CPU and GPU share
 // the exact same physical LPDDR5 RAM. Traditional renderers allocate separate CPU and GPU

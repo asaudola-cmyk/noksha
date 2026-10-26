@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA LAYOUT: HIERARCHICAL SCENE GRAPH NODE (crates/noksha-layout/src/node.lp)
-// ⚡ 100% Pure Raw LiPi | Memoized Flexbox Node Hierarchy | Zero Fragmentation
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-layout
+// Module: node
+// Purpose: Hierarchical scene graph layout node representation.
 //
 // WHY: In modern retained UI engines, scene hierarchy is represented by parent-child
 // node trees. Each node stores its styling constraints and memoizes its computed

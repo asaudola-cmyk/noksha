@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA CORE: TRIPLE-BUFFERED STAGING RING BUFFER (crates/noksha-core/src/memory/ring.lp)
-// ⚡ 100% Pure Raw LiPi | Lock-Free Triple-Buffering | Zero-Stall CPU/GPU Sync
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-core
+// Module: memory/ring
+// Purpose: Lock-free triple-buffered ring allocator for CPU/GPU synchronization.
 //
 // WHY: In high-performance rendering engines, CPU command recording and GPU execution
 // happen asynchronously. If both share a single buffer, the CPU must block (stall)

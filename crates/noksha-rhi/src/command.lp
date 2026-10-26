@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA RHI: COMMAND BUFFER ENCODER (crates/noksha-rhi/src/command.lp)
-// ⚡ 100% Pure Raw LiPi | Sequential Linear Opcode Streams | Zero Heap Allocations
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-rhi
+// Module: command
+// Purpose: Sequential command buffer encoder for draw calls and render passes.
 //
 // WHY: Modern graphics drivers (Vulkan, Metal 3, DirectX 12) decouple command recording
 // from execution. Noksha records render passes into a linear bump-allocated command stream:

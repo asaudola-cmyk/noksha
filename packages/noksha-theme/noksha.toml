@@ -1,9 +1,9 @@
 [package]
 name = "noksha-theme"
 version = "1.0.0"
-authors = ["Sovereign Noksha Contributors <dev@noksha.org>"]
+authors = ["Noksha Project Authors <dev@noksha.org>"]
 license = "MIT OR Apache-2.0"
-description = "Universal Design Tokens, Elevation, and Glassmorphism for Noksha UI Engine"
+description = "Universal design tokens and themes for Noksha UI Engine"
 
 [dependencies]
 noksha-core = { path = "../../crates/noksha-core" }

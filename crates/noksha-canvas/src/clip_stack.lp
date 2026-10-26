@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA CANVAS: HARDWARE SCISSOR CLIP STACK (crates/noksha-canvas/src/clip_stack.lp)
-// ⚡ 100% Pure Raw LiPi | Hierarchical Viewport Clipping | Zero Offscreen Allocation
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-canvas
+// Module: clip_stack
+// Purpose: Hierarchical hardware scissor clipping stack.
 //
 // WHY: Deeply nested scroll areas, modal dialogs, and rounded containers require
 // restricted rendering boundaries (clipping). In traditional engines, nested clips

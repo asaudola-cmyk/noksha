@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA CORE: 2D VECTOR & POINT MATHEMATICS (crates/noksha-core/src/math/vec2.lp)
-// ⚡ 100% Pure Raw LiPi | Zero Dependencies | Fixed-Point & Float Precision
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-core
+// Module: math/vec2
+// Purpose: 2D vector and coordinate arithmetic.
 //
 // WHY: 2D vector transformations are in the hottest path of UI layout negotiation,
 // hit-testing, mouse pointer tracking, and physics-driven spring animations.

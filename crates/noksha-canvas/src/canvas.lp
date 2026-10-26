@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA CANVAS: 2D VECTOR DRAWING ENGINE (crates/noksha-canvas/src/canvas.lp)
-// ⚡ 100% Pure Raw LiPi | Declarative Visual Primitives | Zero Driver Overhead
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-canvas
+// Module: canvas
+// Purpose: High-level 2D vector canvas drawing API.
 //
 // WHY: Modern UI toolkits require high-level visual drawing abstractions (rectangles,
 // cards with glassmorphic borders and drop shadows, buttons, circular avatars).

@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA TEXT: DYNAMIC GPU GLYPH ATLAS (crates/noksha-text/src/atlas.lp)
-// ⚡ 100% Pure Raw LiPi | Skyline Bin Packing | 2048x2048 Texture Atlas
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-text
+// Module: atlas
+// Purpose: Dynamic 2048x2048 GPU glyph atlas manager using skyline bin packing.
 //
 // WHY: Rasterizing fonts from vector Béziers on every frame destroys frame rates.
 // Noksha manages a 2048x2048 single-channel (R8) GPU Glyph Atlas texture.

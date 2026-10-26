@@ -1,5 +1,8 @@
-// =============================================================================
-// Noksha Charts Package Aggregator
-// =============================================================================
-
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-charts
+// Module: lib
+// Purpose: Noksha charts package aggregator.
 import "bar_chart.lp"

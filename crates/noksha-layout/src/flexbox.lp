@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA LAYOUT: W3C FLEXBOX LEVEL 1 SOLVER (crates/noksha-layout/src/flexbox.lp)
-// ⚡ 100% Pure Raw LiPi | O(N) Linear Guarantee | Flex-Grow & Cross-Axis Alignment
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-layout
+// Module: flexbox
+// Purpose: Linear-time O(N) W3C Flexbox Level 1 layout solver.
 //
 // WHY: Modern UI toolkits require deterministic, linear-time layout negotiation.
 // Unlike Yoga, which suffers exponential O(2^N) slowdowns on deep auto-sized trees,

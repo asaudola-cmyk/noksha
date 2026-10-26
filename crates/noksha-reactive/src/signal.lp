@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA REACTIVE: FINE-GRAINED SIGNAL PRIMITIVE (crates/noksha-reactive/src/signal.lp)
-// ⚡ 100% Pure Raw LiPi | Push-Pull Reactivity | Zero Virtual DOM Overhead
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-reactive
+// Module: signal
+// Purpose: Fine-grained push-pull Signal primitive with O(1) subscriber notifications.
 //
 // WHY: Virtual DOM diffing (React) burns CPU cycles checking every node in a tree
 // on every state change. Noksha uses Fine-Grained Reactive Signals (SolidJS / Slint style).

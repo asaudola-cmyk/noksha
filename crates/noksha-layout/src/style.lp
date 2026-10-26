@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA LAYOUT: STYLE DEFINITIONS (crates/noksha-layout/src/style.lp)
-// ⚡ 100% Pure Raw LiPi | W3C Flexbox Level 1 & CSS Grid | Zero Dependencies
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-layout
+// Module: style
+// Purpose: W3C Flexbox Level 1 style attributes.
 //
 // WHY: Declarative layouts require structured style specifications for flex directions,
 // cross-axis alignment, spacing, padding, margins, and dimension constraints.

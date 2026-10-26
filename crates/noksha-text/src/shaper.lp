@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA TEXT: COMPLEX SCRIPT & INDIC SHAPER (crates/noksha-text/src/shaper.lp)
-// ⚡ 100% Pure Raw LiPi | HarfBuzz-Grade Conjunct Shaping | Bengali & Latin Support
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-text
+// Module: shaper
+// Purpose: UTF-8 complex text shaper with Bengali Virama conjunct substitution.
 //
 // WHY: In complex scripts such as Bengali, characters cannot be placed sequentially
 // using simple ASCII advance tables. A complex text shaper must perform:

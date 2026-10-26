@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA UNIVERSAL SOVEREIGN ENGINE: MASTER ENTRY POINT (crates/noksha.lp)
-// ⚡ 100% Pure Raw LiPi | Silicon-to-Web Declarative UI/UX Engine
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha
+// Module: root
+// Purpose: Master entry point aggregating all Noksha engine subsystems.
 //
 // Noksha is a zero-dependency, silicon-to-web universal UI/UX engine written in
 // 100% pure raw LiPi. It unifies bare-metal Linux DRM/KMS, Linux Wayland/X11,

@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA CORE: 2D BOUNDING RECTANGLE GEOMETRY (crates/noksha-core/src/math/rect.lp)
-// ⚡ 100% Pure Raw LiPi | Scissor Clipping | Hit-Testing & Layout Bounding
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-core
+// Module: math/rect
+// Purpose: 2D bounding box geometry, scissor clipping, and hit testing.
 //
 // WHY: In UI rendering, 95% of spatial queries involve axis-aligned bounding boxes (AABBs).
 // Rectangles are required for:

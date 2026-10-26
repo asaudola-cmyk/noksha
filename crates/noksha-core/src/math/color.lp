@@ -1,7 +1,10 @@
-// ==============================================================================
-// 👑 NOKSHA CORE: COLOR REPRESENTATION & BLENDING (crates/noksha-core/src/math/color.lp)
-// ⚡ 100% Pure Raw LiPi | Porter-Duff Alpha Compositing | Packed RGBA & ARGB
-// ==============================================================================
+// Copyright (c) 2026 Noksha Authors. All rights reserved.
+// Use of this source code is governed by an MIT-style license that can be
+// found in the LICENSE file.
+//
+// Package: noksha-core
+// Module: math/color
+// Purpose: Packed 32-bit color representation, lerp, and Porter-Duff alpha blending.
 //
 // WHY: Modern UI graphics pipelines require color representations that can both:
 // 1. Pack into single 32-bit integers for hardware framebuffers and vertex buffers
