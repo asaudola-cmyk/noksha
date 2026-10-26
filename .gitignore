@@ -1,10 +1,14 @@
-# Noksha Build & Intermediate Artifacts
-bin/*
-!bin/.gitkeep
-dist/*
-!dist/.gitkeep
+# =============================================================================
+# Noksha .gitignore: Strict Exclusion of Binaries and Build Outputs
+# =============================================================================
 
-# Temporary & Swap Files
+# Build & Binary Directories
+/bin/
+bin/
+/dist/
+dist/
+
+# Temporary & Object Artifacts
 *.bin
 *.tmp
 *.log
