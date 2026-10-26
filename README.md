@@ -1,11 +1,19 @@
-# Noksha (নকশা)
+<div align="center">
 
-Cross-Platform Silicon-to-Web UI/UX Engine in Pure LiPi.
+<img src="assets/branding/noksha_brand_overview.jpg" alt="Noksha Official Brand &amp; UI Engine" width="100%" />
+
+<br/><br/>
+
+<img src="assets/logo.svg" alt="Noksha Logo" width="480px" />
+
+<p><strong>Cross-Platform Silicon-to-Web UI/UX Engine in Pure LiPi</strong></p>
 
 [![Language: LiPi](https://img.shields.io/badge/Language-LiPi-blue.svg)](https://github.com/asaudola-cmyk/noksha)
 [![Dependencies: Zero](https://img.shields.io/badge/Dependencies-Zero-green.svg)](https://github.com/asaudola-cmyk/noksha)
 [![Tests: 17/17](https://img.shields.io/badge/Tests-17%2F17%20Passed-brightgreen.svg)](https://github.com/asaudola-cmyk/noksha)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+</div>
 
 Noksha is an open-source, hardware-agnostic 2D vector UI engine implemented from first principles in the LiPi programming language. It is designed to run across diverse hardware environments—from bare-metal embedded silicon to modern desktop, mobile, and web runtimes—using a single unified codebase with zero third-party dependencies.
 
@@ -169,6 +177,28 @@ Measured on AMD64 Linux 6.8.0 with 1280x720 DRM/KMS dumb buffer:
 | **Frame Render Time** | < 8.33 ms (120 FPS) | **0.42 ms** | 120 FPS Locked |
 | **Memory Footprint (Idle)** | < 16.0 MB | **0.26 MB** | Within Budget |
 | **Binary Footprint** | < 5.0 MB | **~70 KB** | Ultra Compact |
+
+---
+
+## Official Brand Identity & Assets
+
+The official brand identity and visual guidelines for Noksha are located in [`assets/`](assets/):
+
+| Asset | Format | Description | Path |
+|---|---|---|---|
+| **Horizontal Logo** | Vector SVG | Full brand lockup with stylized emblem and wordmark. | [`assets/logo.svg`](assets/logo.svg) |
+| **Standalone Icon** | Vector SVG | Standalone stylized 'N' speed-slash emblem. | [`assets/icon.svg`](assets/icon.svg) |
+| **Squircle App Icon** | Vector SVG | Continuous curvature app icon for desktop, mobile, and web. | [`assets/app-icon.svg`](assets/app-icon.svg) |
+| **Favicon** | Vector SVG | 64x64 browser tab icon. | [`assets/favicon.svg`](assets/favicon.svg) |
+| **Brand Overview** | High-Res JPG | Official high-resolution brand and dashboard showcase. | [`assets/branding/noksha_brand_overview.jpg`](assets/branding/noksha_brand_overview.jpg) |
+
+### Color Tokens
+- **Electric Cyan (Primary)**: `#00F2FE` (RGB: `0, 242, 254`)
+- **Sapphire Blue (Secondary)**: `#0072FF` (RGB: `0, 114, 255`)
+- **Sky Glow (Accent)**: `#38BDF8` (RGB: `56, 189, 248`)
+- **Obsidian Dark (Background)**: `#0B0F19` (RGB: `11, 15, 25`)
+- **Slate Surface (Card)**: `#1E293B` (RGB: `30, 41, 59`)
+- **Border Slate**: `#334155` (RGB: `51, 65, 85`)
 
 ---
 

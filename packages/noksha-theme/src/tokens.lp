@@ -32,9 +32,10 @@ fn noksha_theme_init_dark(t)
     mem_write(t, 8, noksha_color_rgba(11, 15, 25, 255))           // bg_color: #0B0F19
     mem_write(t, 16, noksha_color_rgba(30, 41, 59, 192))         // surface_color: #1E293B (75% alpha)
     mem_write(t, 24, noksha_color_rgba(51, 65, 85, 150))         // surface_border: #334155 (60% alpha)
-    mem_write(t, 32, noksha_color_rgba(99, 102, 241, 255))       // primary_color: #6366F1 (Electric Indigo)
-    mem_write(t, 40, noksha_color_rgba(6, 182, 212, 255))        // secondary_color: #06B6D4 (Cyan)
-    mem_write(t, 48, noksha_color_rgba(245, 158, 11, 255))       // accent_color: #F59E0B (Amber)
+    // Official Noksha Brand Palette: Electric Cyan to Vivid Sapphire Blue
+    mem_write(t, 32, noksha_color_rgba(0, 242, 254, 255))        // primary_color: #00F2FE (Electric Cyan)
+    mem_write(t, 40, noksha_color_rgba(0, 114, 255, 255))        // secondary_color: #0072FF (Sapphire Blue)
+    mem_write(t, 48, noksha_color_rgba(56, 189, 248, 255))       // accent_color: #38BDF8 (Sky Cyan)
     mem_write(t, 56, noksha_color_rgba(16, 185, 129, 255))       // success_color: #10B981 (Emerald)
     mem_write(t, 64, noksha_color_rgba(244, 63, 94, 255))        // danger_color: #F43F5E (Rose)
     mem_write(t, 72, noksha_color_rgba(248, 250, 252, 255))      // text_primary: #F8FAFC
