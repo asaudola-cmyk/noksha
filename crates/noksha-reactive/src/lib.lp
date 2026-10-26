@@ -8,5 +8,6 @@
 include "crates/noksha-reactive/src/signal.lp"
 
 fn noksha_reactive_init()
+    noksha_reactive_ensure_init()
     return 1
 end

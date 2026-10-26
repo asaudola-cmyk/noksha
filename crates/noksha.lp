@@ -17,6 +17,7 @@ include "crates/noksha-layout/src/lib.lp"
 include "crates/noksha-text/src/lib.lp"
 include "crates/noksha-reactive/src/lib.lp"
 include "crates/noksha-ui/src/lib.lp"
+include "crates/noksha-pal/src/lib.lp"
 
 // Master initialization of all Noksha engine subsystems
 fn noksha_engine_init()
@@ -27,5 +28,6 @@ fn noksha_engine_init()
     noksha_text_init()
     noksha_reactive_init()
     noksha_ui_init()
+    noksha_pal_init()
     return 1
 end

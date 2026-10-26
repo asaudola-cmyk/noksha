@@ -84,6 +84,12 @@ end
 fn noksha_justify_space_between()
     return 3
 end
+fn noksha_justify_space_around()
+    return 4
+end
+fn noksha_justify_space_evenly()
+    return 5
+end
 
 // Auto dimension sentinel value: -1 means "auto / intrinsic sizing"
 fn noksha_auto_size()
@@ -163,6 +169,25 @@ fn noksha_style_set_gap(s, gap_px)
         return 0
     end
     mem_write(s, 144, gap_px)
+    return s
+end
+
+fn noksha_style_set_justify_content(s, justify)
+    if s <= 0
+        return 0
+    end
+    mem_write(s, 24, justify)
+    return s
+end
+
+fn noksha_style_set_margin(s, l, t, r, b)
+    if s <= 0
+        return 0
+    end
+    mem_write(s, 112, l)
+    mem_write(s, 120, t)
+    mem_write(s, 128, r)
+    mem_write(s, 136, b)
     return s
 end
 

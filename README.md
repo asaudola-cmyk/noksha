@@ -4,7 +4,15 @@
 
 <br/><br/>
 
-<img src="assets/logo.svg" alt="Noksha Logo" width="480px" />
+<a href="https://github.com/asaudola-cmyk/noksha">
+  <img src="assets/logo.svg" alt="Noksha Official Logo" width="520px" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/asaudola-cmyk/noksha">
+  <img src="assets/app-icon.svg" alt="Noksha Official App Icon" width="128px" />
+</a>
 
 <p><strong>Cross-Platform Silicon-to-Web UI/UX Engine in Pure LiPi</strong></p>
 
@@ -182,15 +190,15 @@ Measured on AMD64 Linux 6.8.0 with 1280x720 DRM/KMS dumb buffer:
 
 ## Official Brand Identity & Assets
 
-The official brand identity and visual guidelines for Noksha are located in [`assets/`](assets/):
+The official brand identity and visual guidelines for Noksha are located in [`assets/`](assets/) and [`assets/branding/`](assets/branding/):
 
-| Asset | Format | Description | Path |
+| Asset | Format | Description | File Links |
 |---|---|---|---|
-| **Horizontal Logo** | Vector SVG | Full brand lockup with stylized emblem and wordmark. | [`assets/logo.svg`](assets/logo.svg) |
-| **Standalone Icon** | Vector SVG | Standalone stylized 'N' speed-slash emblem. | [`assets/icon.svg`](assets/icon.svg) |
-| **Squircle App Icon** | Vector SVG | Continuous curvature app icon for desktop, mobile, and web. | [`assets/app-icon.svg`](assets/app-icon.svg) |
-| **Favicon** | Vector SVG | 64x64 browser tab icon. | [`assets/favicon.svg`](assets/favicon.svg) |
-| **Brand Overview** | High-Res JPG | Official high-resolution brand and dashboard showcase. | [`assets/branding/noksha_brand_overview.jpg`](assets/branding/noksha_brand_overview.jpg) |
+| **Horizontal Logo** | Vector SVG / PNG | Full brand lockup with stylized emblem and wordmark. | [`assets/logo.svg`](assets/logo.svg) · [`assets/logo.png`](assets/logo.png) |
+| **Standalone Icon** | Vector SVG / PNG | Standalone stylized 'N' speed-slash emblem on transparent background. | [`assets/icon.svg`](assets/icon.svg) · [`assets/icon.png`](assets/icon.png) |
+| **Squircle App Icon** | Vector SVG / PNG | Official continuous curvature app icon with glowing cyan/blue rim (512x512). | [`assets/app-icon.svg`](assets/app-icon.svg) · [`assets/app-icon.png`](assets/app-icon.png) |
+| **Favicon** | Vector SVG | 128x128 browser tab icon. | [`assets/favicon.svg`](assets/favicon.svg) |
+| **Brand Overview** | High-Res JPG | Official high-resolution master brand and dashboard showcase. | [`assets/branding/noksha_brand_overview.jpg`](assets/branding/noksha_brand_overview.jpg) |
 
 ### Color Tokens
 - **Electric Cyan (Primary)**: `#00F2FE` (RGB: `0, 242, 254`)
