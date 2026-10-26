@@ -1,0 +1,37 @@
+[workspace]
+name = "noksha"
+version = "1.0.0"
+authors = ["Sovereign Noksha Contributors <dev@noksha.org>"]
+license = "MIT OR Apache-2.0"
+description = "Sovereign Silicon-to-Web UI/UX Engine in 100% Pure Raw LiPi"
+repository = "https://github.com/noksha-engine/noksha"
+homepage = "https://noksha.org"
+edition = "2026"
+
+members = [
+    "crates/noksha-core",
+    "crates/noksha-rhi",
+    "crates/noksha-canvas",
+    "crates/noksha-layout",
+    "crates/noksha-text",
+    "crates/noksha-reactive",
+    "crates/noksha-ui",
+    "packages/noksha-theme",
+    "packages/noksha-charts",
+]
+
+[profile.release]
+opt_level = 3
+lto = true
+strip = true
+codegen_units = 1
+panic = "abort"
+
+[targets]
+silicon = { backend = "drm_kms", device = "/dev/dri/card0", zero_copy = true }
+linux = { backend = "wayland_x11", presentation = "mailbox", vsync = true }
+windows = { backend = "d3d12_directx", tearing = false, hdr = true }
+macos = { backend = "metal_3", uma_zero_copy = true, promotion_hz = 120 }
+ios = { backend = "metal_3_uikit", display_link = true, dynamic_island = true }
+android = { backend = "vulkan_ndk", choreo_grapher = true, low_latency = true }
+wasm = { backend = "webgpu_wgsl", threading = "web_workers", offscreen = true }

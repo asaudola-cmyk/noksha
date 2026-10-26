@@ -1,0 +1,21 @@
+# Noksha Build & Intermediate Artifacts
+bin/*
+!bin/.gitkeep
+dist/*
+!dist/.gitkeep
+
+# Temporary & Swap Files
+*.bin
+*.tmp
+*.log
+*.o
+*.a
+*.so
+.DS_Store
+*.swp
+*~
+
+# Test & Debug Dumps
+/tmp/
+*.prof
+*.flamegraph

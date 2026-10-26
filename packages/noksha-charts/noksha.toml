@@ -1,0 +1,11 @@
+[package]
+name = "noksha-charts"
+version = "1.0.0"
+authors = ["Sovereign Noksha Contributors <dev@noksha.org>"]
+license = "MIT OR Apache-2.0"
+description = "GPU-Accelerated Financial and Analytics Charts Package for Noksha Engine"
+
+[dependencies]
+noksha-core = { path = "../../crates/noksha-core" }
+noksha-canvas = { path = "../../crates/noksha-canvas" }
+noksha-theme = { path = "../noksha-theme" }
